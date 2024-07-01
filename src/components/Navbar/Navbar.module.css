@@ -1,0 +1,308 @@
+.navbar {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 1.5em;
+    width: 100%;
+} 
+.linkContainer {
+    width: 80%;
+}
+.navbarLink {
+    font-size: small;
+    margin-left: 2em;
+    text-decoration: none;
+    color: black;
+}
+.buttonLink {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    margin-left: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #2AA8FF;
+    border-radius: 5px;
+    height: 2em;
+    width: 7em;
+}
+.homeImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.homeImg img {
+    height: 70%;
+}
+.homeLink {
+    font-size: medium;
+    text-decoration: none;
+    color: #2AA8FF;
+    font-weight: bold;
+    margin-right: 9em;
+}
+
+@media screen and (max-width: 321px) {
+      .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 0.5em;
+        width: 30%;
+      }
+      .homeImg img {
+        width: 20%;
+        height: 40%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+     .navbarLink{
+        margin-left: 0.5em;
+        font-size: x-small;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: xx-small;
+        margin-left: 0.2em;
+        /* padding: 0em; */
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: small;
+     }
+  
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 1em;
+        width: 30%;
+      }
+      .homeImg img {
+        /* width: 20%; */
+        height: 50%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+     .navbarLink{
+        margin-left: 0.5em;
+        font-size: 0.7em;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: x-small;
+        margin-left: 0.2em;
+        /* padding: 0em; */
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: smaller;
+     }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+      .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 1em;
+        width: 30%;
+      }
+      .homeImg img {
+        height: 60%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+     .navbarLink{
+        margin-left: 0.5em;
+        font-size: small;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: 0.75em;
+        margin-left: 0.3em;
+        /* padding: 0em; */
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 0.9em;
+     }
+  
+  }
+  
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .App{
+    height: auto;
+    width: 100% ;
+    }
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 1.5em;
+        width: 30%;
+      }
+      .homeImg img {
+        width: 35%;
+        height: 65%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+     .navbarLink{
+        margin-left: 0.7em;
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: 0.75em;
+        margin-left: 0.5em;
+        /* padding: 0em; */
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 0.9em;
+     }
+  }
+  @media screen and (min-width: 576px) and (max-width: 766px) {
+    .App{
+    height: auto;
+    width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 1.5em;
+        width: 30%;
+      }
+      .homeImg img {
+        height: 65%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+      }
+     .navbarLink{
+        margin-left: 0.7em;
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: 0.75em;
+        margin-left: 0.5em;
+        /* padding: 0em; */
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 0.9em;
+     }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 2em;
+        width: 30%;
+      }
+      .homeImg img {
+        /* width: 40%; */
+        height: 60%;
+      }
+      .linkContainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 1em;
+      }
+     .navbarLink{
+        margin-left: 0.7em;
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+     }
+     .buttonLink{
+        font-size: 0.9em;
+        margin-left: 1em;
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 1.1em;
+     }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 4em;
+        width: 30%;
+      }
+      .homeImg img {
+        height: 100%;
+      }
+      .linkContainer{
+        display: flex;
+        align-items: center;
+        margin-right: 1em;
+      }
+     .navbarLink{
+        margin-left: 0.75em;
+        font-size: 0.9em;
+     }
+     .buttonLink{
+        font-size: 1em;
+        margin-left: 1em;
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 1.1em;
+     }
+  }
+  @media screen and (min-width: 1200px) {
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      .homeImg{
+        margin-left: 5em;
+        margin-right: 2em;
+        width: 30%;
+      }
+      .homeImg img {
+        height: 100%;
+      }
+      .linkContainer{
+        display: flex;
+        align-items: center;
+        margin-right: 0em;
+      }
+     .navbarLink{
+        margin-left: 1em;
+        font-size: 1em;
+     }
+     .buttonLink{
+        font-size: 1.1em;
+        margin-left: 1em;
+        height: 1.6em;
+     }
+     .homeLink{
+        font-size: 1.2em;
+     }
+  }
+  
+  

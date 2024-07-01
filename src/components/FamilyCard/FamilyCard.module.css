@@ -1,0 +1,249 @@
+.wrapper {
+    padding-top: 1em;
+    display: flex;
+    width: 100%;
+}
+.wrapper img {
+    width: 40%;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em; 
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 15px 45px -5px rgba(0,0,0,0.07);
+}
+.card2 {
+    position: relative;
+    top:2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    padding-top: 2em;
+    margin-left: 2em;
+    margin-left: 2em;
+    margin-right: 2em; 
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 15px 45px -5px rgba(0,0,0,0.07);
+}
+
+@media screen and (max-width: 321px) {
+   .card1,.card2 {
+    width: 70%;
+    margin: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+   }
+   .card2 {
+    margin-top: 0em;
+    margin-bottom: 1em;
+   }
+    .card1 h1{
+    font-size: medium;
+   }
+   .card1 p {
+    font-size: x-small;
+    text-align: center;
+   }
+   .card2 h1{
+    font-size: medium;
+   }
+   .card2 p {
+    font-size: x-small;
+    text-align: center;
+   }
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .card1,.card2 {
+        width: 70%;
+        margin: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+       }
+       .card2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: medium;
+       }
+       .card1 p {
+        font-size: x-small;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: medium;
+       }
+       .card2 p {
+        font-size: x-small;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .card1,.card2 {
+        width: 70%;
+        margin: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+       }
+       .card2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: medium;
+       }
+       .card1 p {
+        font-size: x-small;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: medium;
+       }
+       .card2 p {
+        font-size: x-small;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .card1,.card2 {
+        width: 40%;
+        margin: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+       }
+       .card2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: large;
+       }
+       .card1 p {
+        font-size: small;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: large;
+       }
+       .card2 p {
+        font-size: small;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .card1,.card2 {
+        width: 40%;
+        margin: 0.5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+       }
+       .card2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: large;
+       }
+       .card1 p {
+        font-size: small;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: large;
+       }
+       .card2 p {
+        font-size: small;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .card1,.card2 {
+        width: 40%;
+        margin: 0.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+       }
+       .card2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: x-large;
+       }
+       .card1 p {
+        font-size: medium;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: x-large;
+       }
+       .card2 p {
+        font-size: medium;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card1,.card2 {
+        width: 30%;
+        margin: 0.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-left: 2em;
+       }
+       .card2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: xx-large;
+       }
+       .card1 p {
+        font-size: large;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: xx-large;
+       }
+       .card2 p {
+        font-size: large;
+        text-align: center;
+       }
+  }
+  @media screen and (min-width: 1200px) {
+    .card1,.card2 {
+        width: 30%;
+        margin: 0.5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-left: 2em;
+       }
+       .card2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+       }
+        .card1 h1{
+        font-size: xx-large;
+       }
+       .card1 p {
+        font-size: large;
+        text-align: center;
+       }
+       .card2 h1{
+        font-size: xx-large;
+       }
+       .card2 p {
+        font-size: large;
+        text-align: center;
+       }
+  }

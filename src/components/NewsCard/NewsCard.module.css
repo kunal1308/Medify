@@ -1,0 +1,145 @@
+.wrapper {
+    padding-right: 1em;
+}
+.wrapper img {
+    width: 95%;
+}
+.category {
+    color:#77829D;
+    width: 100%;
+    display: inline-block;
+}
+.categoryWrapper {
+    width: 100%;
+}
+.writerImg {
+     display: flex;
+     align-items: center;
+}
+.writerImg img{
+    width: 10%;
+}
+.content a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 321px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: xx-small;
+    }
+    .content p {
+        font-size: xx-small;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: x-small;
+    }
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: xx-small;
+    }
+    .content p {
+        font-size: xx-small;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: x-small;
+    }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: xx-small;
+    }
+    .content p {
+        font-size: xx-small;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: x-small;
+    }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: xx-small;
+    }
+    .content p {
+        font-size: xx-small;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: x-small;
+    }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: small;
+    }
+    .content p {
+        font-size: small;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: small;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: medium;
+    }
+    .content p {
+        font-size: medium;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: medium;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: large;
+    }
+    .content p {
+        font-size: large;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: large;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+        padding-right: 0em;
+    }
+    .category{
+        font-size: large;
+    }
+    .content p {
+        font-size: large;
+        padding-top: 0.5em;
+    }
+    .writerImg span {
+        font-size: large;
+    }
+  }

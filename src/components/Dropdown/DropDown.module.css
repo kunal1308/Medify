@@ -1,0 +1,15 @@
+.dropdown {
+    width: 30%;
+    height: 2em;
+    padding: 0em;
+}
+.select {
+    max-height: 3em;
+}
+.menuItem {
+    font-size: smaller;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+

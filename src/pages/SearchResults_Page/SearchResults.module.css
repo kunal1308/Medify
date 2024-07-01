@@ -1,0 +1,294 @@
+.mainWrapper {
+    background:linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+.navbarBottom {
+    background-color: #2AA8FF;
+    width: 100%;
+    height: 4em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1em;
+}
+.searchbar {
+    width: 80%;
+    position: absolute;
+    top: 8.5em;
+    background-color: white;
+    margin-left: 6em;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+}
+.container {
+    width: 95%;
+    margin-left: 6em;
+    margin-top: 7em;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+} 
+.cardContainer {
+    width: 70%;
+}
+.freeAppointment {
+    width: 25%;
+    position: relative;
+   left: 2em;
+   top:1em
+}
+.freeAppointment img {
+    width: 89%;
+}
+.freqQuestions {
+    margin-top: 3em;
+}
+.footer {
+    top: 4em;
+    height: 90vh;
+    position: relative;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+@media screen and (max-width: 321px) {
+    .navbarBottom {
+        height: 2.5em;
+    }
+    .searchbar {
+        margin-left: 2em;
+        top:8em;
+    }
+    .searchbar div{
+        height: 50%;
+    }
+    .container {
+        margin-left: 1em;
+        margin-top: 4em;
+    }
+    .container h4 {
+        font-size: small;
+    }
+    .headline {
+        font-size: small;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .freeAppointment {
+        left: 0.5em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 120%;
+        height: 7em;
+    }
+    .footer {
+        top: 4em;
+        height: 90vh;
+        position: relative;
+        background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    }
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .searchbar {
+        margin-left: 4em;
+        top:9em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container {
+        margin-left: 1.5em;
+        margin-top: 4em;
+    }
+    .container h4 {
+        font-size: small;
+    }
+    .headline {
+        font-size: small;
+    }
+    .freeAppointment {
+        left: 0.5em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 120%;
+        height: 7em;
+    }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .searchbar {
+        margin-left: 4em;
+        top:10em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container {
+        margin-left: 2em;
+        margin-top: 4em;
+    }
+    .container h4 {
+        font-size: small;
+    }
+    .headline {
+        font-size: small;
+    }
+    .footer {
+        height: 80vh;
+    }
+    .freeAppointment {
+        left: 0.5em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 110%;
+        height: 7em;
+    }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .searchbar {
+        margin-left: 5.5em;
+        top:11em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container {
+        margin-left: 2em;
+        margin-top: 4em;
+    }
+    .container h4 {
+        font-size: small;
+    }
+    .headline {
+        font-size: small;
+    }
+    .footer {
+        height: 70vh;
+    }
+    .freeAppointment {
+        left: 0.5em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 120%;
+        height: 10em;
+    }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .searchbar {
+        margin-left: 6.5em;
+        top:11.5em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container {
+        margin-left: 2em;
+        margin-top: 4em;
+    }
+    .container h4 {
+        font-size: medium;
+    }
+    .headline {
+        font-size: medium;
+    }
+    .footer {
+        height: 60vh;
+    }
+    .freeAppointment {
+        left: 1em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 125%;
+        height: 16em;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .container {
+        margin-left: 2.5em;
+    }
+    .cardContainer {
+        left: 1em;
+        width: 60%;
+    }
+    .searchbar {
+        margin-left: 7.5em;
+        top:11em;
+    }
+    .container h4 {
+        font-size: medium;
+    }
+    .headline {
+        font-size: medium;
+    }
+    .footer {
+        height: 50vh;
+    }
+    .freeAppointment {
+        left: 1em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 120%;
+        height: 19.5em;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .searchbar {
+        margin-left: 8em;
+        top:10em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container h4 {
+        font-size: x-large;
+    }
+    .headline {
+        font-size: large;
+    }
+    .footer {
+        height: 100vh;
+    }
+    .footer {
+        height: 40vh;
+    }
+    .freeAppointment {
+        left: 1em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 100%;
+        height: 19.5em;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .searchbar {
+        margin-left: 13em;
+        top:10em;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .container h4 {
+        font-size: xx-large;
+    }
+    .headline {
+        font-size: x-large;
+    }
+    .footer {
+        height: 30vh;
+    }
+    .freeAppointment {
+        left: 1em;
+        width: 30%;
+    }
+    .freeAppointment img {
+        width: 110%;
+        height: 19.5em;
+    }
+  }
+  
+  

@@ -1,0 +1,950 @@
+.wrapper {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+.downloadSection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mobile1 {
+    position: absolute;
+    left: 4em;
+    top:7.7em;
+}
+.mobile2 {
+    position: absolute;
+    left: 16em;
+}
+ .mobile1Inner {
+    position: absolute;
+    left:0.5em;
+    top:2em;
+ }
+ .mobile2Inner {
+    position: absolute;
+    left:0.5em;
+    top:2em;
+    border-radius: 10px;
+ }
+ .mobile2Inner img {
+    width: 99%;
+ }
+
+ .downloadSectionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 31em;
+    padding-top: 3em;
+ }
+ .downloadSectionContent h1{
+    width: 60%;
+ }
+ .icon1 {
+    position: relative;
+    left: -3em;
+    top:-9em
+ }
+ .icon2 {
+    position: relative;
+    left: -3.5em;
+    top:-7.5em
+ }
+ .downloadLink {
+    position: relative;
+    top:-9em
+ }
+ .downloadLink p {
+    font-size: medium;
+ }
+
+ .input input{
+    margin-top: 2em;
+    height: 2em;
+    border-color: grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+ }
+ .input span {
+    padding: 0.1em;
+    padding-bottom: 0.4em;
+    margin-right: 0.1em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+ }
+ .downloadLink button {
+    background-color:#2AA8FF;
+    border-color: #2AA8FF;
+    color: white;
+    border-radius: 5px;
+    margin-left: 1em;
+    height: 2em;
+    cursor: pointer;
+ }
+ .storeImg img{
+    width: 30%;
+    padding-right: 1em;
+    padding-bottom: 2em;
+ }
+
+
+ .homeImg {
+   display: flex;
+   align-items: center;
+   margin-top: 1em;
+}
+.homeImg img {
+   width: 25%;
+   padding-right: 0.4em;
+}
+.homeLink {
+   font-size: large;
+   text-decoration: none;
+   color: #2AA8FF;
+   font-weight: bold;
+}
+
+
+
+ .footerContent {
+    margin-top: 0.25em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #1B3C74;
+    color: white;
+ }
+ .footerWrapper {
+    width: 80%;
+ }
+ .footerWrapper p{
+    padding-top: 2em;
+    margin-left: 4em;
+    margin-top: 3em;
+    border-top: 1px solid #FFFFFF1A
+ }
+ .footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .footerLinks1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ @media screen and (max-width: 321px) {
+  .mobile2 {
+   top: 3em;
+   left: 4em;
+  }
+   .mobile2 img{
+   width: 5em;
+   height: 10.7em;
+  }
+  .mobile2Inner {
+   top: 0.7em;
+   left: 0em;
+  }
+  .mobile1 {
+   top: 5em;
+   left:1em;
+  }
+  .mobile1Inner {
+   top: 1em;
+   left: 0em;
+  }
+  .mobile1 img {
+   width: 5em;
+   height: 8em;
+  }
+  .downloadSectionContent {
+   padding-top: 1em;
+   margin-left: 11em;
+  }
+  .downloadSectionContent h1{
+   font-size: x-small;
+   position: relative;
+   left: 1em;
+  }
+  .storeImg {
+  position: relative;
+  top: -9em;
+  }
+  .icon1  img {
+   height: 30%;
+  }
+  .icon1 {
+   top:-3em;
+   left: -0.5em;
+  }
+  .icon2 {
+   top: -4em;
+   left: -1em;
+  }
+  .icon2 img {
+   height: 30%;
+  }
+  .downloadLink p {
+   font-size: xx-small;
+  }
+  .input span {
+   font-size: xx-small;
+  }
+  .input input {
+   margin-top: 0.5em;
+   font-size: xx-small;
+  }
+  .downloadLink button {
+   margin: 1em;
+   font-size: 50%;
+  }
+
+  .footerContent {
+   position: relative;
+   top: -10.5em;
+   padding-bottom: 1em;
+  }
+  .footerWrapper {
+   width: 90%;
+  }
+  .footerLinks1 {
+   margin-left: 1em;
+  }
+  .footerLinks1Wrapper a {
+   font-size: x-small;
+  }
+  .socialMediaIcons a img{
+   margin-top: 2em;
+   height: 10%;
+  }
+  .footerLinks2, .footerLinks3 {
+   font-size: 0.5em;
+  }
+  .footerLinks2 ul, .footerLinks3 ul{
+   width: 100%;
+   height: 15%;
+   margin: 0.5em;
+   padding-left: 1em;
+  }
+  .copyright p{
+   padding-top: 0.5em;
+   margin-top: 0em;
+   margin-left: 1em;
+   font-size: xx-small;
+  }
+ }
+ @media screen and (min-width: 322px) and (max-width:376px) {
+   .mobile2 {
+      top: 3em;
+      left: 4em;
+     }
+      .mobile2 img{
+      width: 5.5em;
+      height: 12em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 5em;
+      left:1em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 5em;
+      height: 9.3em;
+     }
+     .downloadSectionContent {
+      padding-top: 1em;
+      margin-left: 12em;
+     }
+     .downloadSectionContent h1{
+      font-size: small;
+      position: relative;
+      left: 1em;
+     }
+     .storeImg {
+     position: relative;
+     top: -9em;
+     }
+     .icon1  img {
+      height: 30%;
+     }
+     .icon1 {
+      top:-4em;
+      left: 0em;
+     }
+     .icon2 {
+      top: -4em;
+      left: -1.5em;
+     }
+     .icon2 img {
+      height: 40%;
+     }
+     .downloadLink p {
+      font-size: x-small;
+     }
+     .input span {
+      font-size: x-small;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: xx-small;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 60%;
+     }
+     .footerContent {
+      position: relative;
+      top: -10.5em;
+      padding-bottom: 1em;
+     }
+     .footerWrapper {
+      width: 90%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: x-small;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 10%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.5em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 0.5em;
+      margin-top: 0em;
+      margin-left: 3em;
+      font-size: xx-small;
+     }
+ }
+ @media screen and (min-width:376px) and (max-width:426px) {
+   .mobile2 {
+      top: 3em;
+      left: 4em;
+     }
+      .mobile2 img{
+      width: 6em;
+      height: 12em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 5em;
+      left:1em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 5.5em;
+      height: 9.3em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 12em;
+     }
+     .downloadSectionContent h1{
+      font-size: small;
+      position: relative;
+      left: 1em;
+     }
+     .storeImg {
+     position: relative;
+     top: -8.5em;
+     }
+     .icon1  img {
+      height: 30%;
+     }
+     .icon1 {
+      top:-4em;
+      left: 0em;
+     }
+     .icon2 {
+      top: -4em;
+      left: -1.5em;
+     }
+     .icon2 img {
+      height: 40%;
+     }
+     .downloadLink p {
+      font-size: x-small;
+     }
+     .input span {
+      font-size: x-small;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: xx-small;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 60%;
+     }
+     .footerContent {
+      position: relative;
+      top: -10em;
+      padding-bottom: 1em;
+     }
+     .footerWrapper {
+      width: 90%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: x-small;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 10%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.5em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 0.5em;
+      margin-top: 0em;
+      margin-left: 3em;
+      font-size: xx-small;
+     }
+ }
+ @media screen and (min-width:427px) and (max-width: 575px) {
+   .mobile2 {
+      top: 3em;
+      left: 5em;
+     }
+      .mobile2 img{
+      width: 7em;
+      height: 12em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 5em;
+      left:2em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 7em;
+      height: 12em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 16em;
+     }
+     .downloadSectionContent h1{
+      font-size: medium;
+      position: relative;
+      left: 1em;
+     }
+     .storeImg {
+      width: 80%;
+     position: relative;
+     top: -8em;
+     }
+     .icon1  img {
+      height: 40%;
+     }
+     .icon1 {
+      top:-4.5em;
+      left: -1em;
+     }
+     .icon2 {
+      top: -4.5em;
+      left: -2em;
+     }
+     .icon2 img {
+      height: 40%;
+     }
+     .downloadLink p {
+      font-size: small;
+     }
+     .input span {
+      font-size: small;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: x-small;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 70%;
+     }
+     
+     .footerContent {
+      position: relative;
+      top: -10em;
+      padding-bottom: 1em;
+     }
+     .footerWrapper {
+      width: 90%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: small;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 20%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.6em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 0.5em;
+      margin-top: 0em;
+      margin-left: 3em;
+      font-size: x-small;
+     }
+ }
+ @media screen and (min-width: 575px) and (max-width: 766px) {
+   .mobile2 {
+      top: 3em;
+      left: 10em;
+     }
+      .mobile2 img{
+      width: 10em;
+      height: 19em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 5em;
+      left:4em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 10em;
+      height: 19em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 24em;
+     }
+     .downloadSectionContent h1{
+      font-size: large;
+      position: relative;
+      left: 1em;
+     }
+     .storeImg {
+      width: 80%;
+     position: relative;
+     top: -5em;
+     }
+     .icon1  img {
+      height: 45%;
+     }
+     .icon1 {
+      top:-3.5em;
+      left: -1em;
+     }
+     .icon2 {
+      top: -3.5em;
+      left: -2em;
+     }
+     .icon2 img {
+      height: 50%;
+     }
+     .downloadLink p {
+      font-size: medium;
+     }
+     .input span {
+      font-size: medium;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: small;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 80%;
+     }
+     .footerContent {
+      position: relative;
+      top: -5em;
+      padding-bottom: 1em;
+     }
+     .footerWrapper {
+      width: 90%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: medium;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 25%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.7em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 0.5em;
+      margin-top: 0em;
+      margin-left: 5em;
+      font-size: small;
+     }
+ }
+ @media screen and (min-width: 767px) and (max-width: 991px) {
+   .mobile2 {
+      top: 3em;
+      left: 10em;
+     }
+      .mobile2 img{
+      width: 10em;
+      height: 19em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 5em;
+      left:4em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 10em;
+      height: 16em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 24em;
+     }
+     .downloadSectionContent h1{
+      font-size: large;
+      position: relative;
+      left: 1em;
+     }
+     .storeImg {
+      width: 80%;
+     position: relative;
+     top: -4em;
+     }
+     .icon1  img {
+      height: 45%;
+     }
+     .icon1 {
+      top:-3.5em;
+      left: -1em;
+     }
+     .icon2 {
+      top: -3.5em;
+      left: -2em;
+     }
+     .icon2 img {
+      height: 50%;
+     }
+     .downloadLink p {
+      font-size: medium;
+     }
+     .input span {
+      font-size: medium;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: small;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 80%;
+     }
+     .footerContent {
+      position: relative;
+      top: -4.7em;
+      padding-bottom: 1em;
+     }
+     .footerWrapper {
+      width: 90%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: medium;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 25%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.7em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 0.5em;
+      margin-top: 0em;
+      margin-left: 5em;
+      font-size: small;
+     }
+ }
+ @media screen and (min-width: 992px) and (max-width: 1199px) {
+   .mobile2 {
+      top: 3em;
+      left: 15em;
+     }
+      .mobile2 img{
+      width: 18em;
+      height: 30em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 7em;
+      left:6em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 17em;
+      height: 25em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 31em;
+     }
+     .downloadSectionContent h1{
+      font-size: xx-large;
+      position: relative;
+     }
+     .storeImg {
+      width: 90%;
+     position: relative;
+     top: -4em;
+     }
+     .icon1  img {
+      height: 65%;
+     }
+     .icon1 {
+      top:-8.5em;
+      left: -3em;
+     }
+     .icon2 {
+      top: -5em;
+      left: -4em;
+     }
+     .icon2 img {
+      height: 80%;
+     }
+     .downloadLink p {
+      font-size: large;
+     }
+     .input span {
+      font-size: large;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: medium;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 90%;
+     }
+     .footerContent {
+      position: relative;
+      top: 0em;
+      padding-bottom: 2em;
+     }
+     .footerWrapper {
+      width: 80%;
+     }
+     .homeImg img {
+      width: 10%;
+     }
+     .footerLinks1 {
+      margin-left: 6em;
+      width: 50%;
+     }
+     .footerLinks1Wrapper a {
+      font-size: large;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 40%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.9em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      margin-left: 6em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 1em;
+      margin-top: 1em;
+      margin-left: 5em;
+      font-size: medium;
+     }
+ }
+ @media screen and (min-width: 1200px) {
+   .mobile2 {
+      top: 3em;
+      left: 16em;
+     }
+      .mobile2 img{
+      width: 18em;
+      height: 32em;
+     }
+     .mobile2Inner {
+      top: 0.7em;
+      left: 0em;
+     }
+     .mobile1 {
+      top: 7.5em;
+      left:7em;
+     }
+     .mobile1Inner {
+      top: 1em;
+      left: 0em;
+     }
+     .mobile1 img {
+      width: 17em;
+      height: 26.5em;
+     }
+     .downloadSectionContent {
+      padding-top: 1.5em;
+      margin-left: 30em;
+     }
+     .downloadSectionContent h1{
+      font-size: xx-large;
+      position: relative;
+     }
+     .storeImg {
+      width: 100%;
+     position: relative;
+     top: -1em;
+     }
+     .icon1  img {
+      height: 75%;
+     }
+     .icon1 {
+      top:-8.5em;
+      left: -3em;
+     }
+     .icon2 {
+      top: -5em;
+      left: -4em;
+     }
+     .icon2 img {
+      height: 90%;
+     }
+     .downloadLink p {
+      font-size: x-large;
+     }
+     .input span {
+      font-size: x-large;
+     }
+     .input input {
+      margin-top: 0.5em;
+      font-size: large;
+     }
+     .downloadLink button {
+      margin: 1em;
+      font-size: 100%;
+     }
+     .footerContent {
+      position: relative;
+      top: 0em;
+      padding-bottom: 2em;
+     }
+     .footerWrapper {
+      width: 80%;
+     }
+     .footerLinks1 {
+      margin-left: 2em;
+     }
+     .footerLinks1Wrapper a {
+      font-size: large;
+     }
+     .socialMediaIcons a img{
+      margin-top: 2em;
+      height: 40%;
+     }
+     .footerLinks2, .footerLinks3 {
+      font-size: 0.9em;
+     }
+     .footerLinks2 ul, .footerLinks3 ul{
+      width: 100%;
+      height: 15%;
+      margin: 0.5em;
+      padding-left: 1em;
+     }
+     .copyright p{
+      padding-top: 1em;
+      margin-top: 1em;
+      margin-left: 5em;
+      font-size: medium;
+     }
+ }
+ 

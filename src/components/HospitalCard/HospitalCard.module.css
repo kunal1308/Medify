@@ -1,0 +1,233 @@
+.leftPart {
+    display: flex;
+    width: 85%;
+   padding: 0em !important;
+}
+.leftPart img {
+    width: 20%;
+    height: 50%;
+}
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+}
+.cardTitle {
+    color: #2aa8ff;
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 90%;
+}
+.cardContent {
+    font-size: 75% !important;
+}
+
+.icon {
+    width:3em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:green;
+    color:white;
+    padding:0em !important;
+    border-radius: 10px;
+}
+.icon span {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media screen and (max-width: 321px) {
+  .leftPart img {
+    height: 12%;
+    width: 20%;
+  }
+  .leftPartContentWrapper {
+    width: 100%;
+    padding: 0.3em !important;
+  }
+  .cardTitle {
+    font-size: xx-small !important;
+  }
+  .cardContent span {
+    font-size: 0.7em;
+  }
+  .icon {
+    border-radius: 3px;
+    width: 45% !important;
+    height: 1em;
+  }
+  .icon span{
+    padding-left: 0.2em;
+  }
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .leftPart img {
+      height: 17%;
+      width: 22%;
+    }
+    .leftPartContentWrapper {
+      width: 100%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: x-small !important;
+    }
+    .cardContent span {
+      font-size: 0.8em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 45%;
+      height: 1.3em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .leftPart img {
+      height: 17%;
+      width: 22%;
+    }
+    .leftPartContentWrapper {
+      width: 100%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: x-small !important;
+    }
+    .cardContent span {
+      font-size: 0.8em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 45%;
+      height: 1.3em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .leftPart img {
+      height: 17%;
+      width: 22%;
+    }
+    .leftPartContentWrapper {
+      width: 100%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: 0.74em !important;
+    }
+    .cardContent span {
+      font-size: 1em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 35%;
+      height: 1.3em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .leftPart img {
+      height: 25%;
+      width: 25%;
+    }
+    .leftPartContentWrapper {
+      width: 100%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: 0.8em !important;
+    }
+    .cardContent span {
+      font-size: 1.2em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 25%;
+      height: 1.3em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .leftPart img {
+      height: 25%;
+      width: 25%;
+    }
+    .leftPartContentWrapper {
+      width: 100%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: 1em !important;
+    }
+    .cardContent span {
+      font-size: 1.4em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 25%;
+      height: 1.5em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .leftPart img {
+      height: 30%;
+      width: 20%;
+    }
+    .leftPartContentWrapper {
+      width: 85%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: 1.2em !important;
+    }
+    .cardContent span {
+      font-size: 1.5em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 15%;
+      height: 1.5em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .leftPart img {
+      height: 35%;
+      width: 25%;
+    }
+    .leftPartContentWrapper {
+      width: 85%;
+      padding: 0.3em !important;
+    }
+    .cardTitle {
+      font-size: 1.4em !important;
+    }
+    .cardContent span {
+      font-size: 1.6em;
+    }
+    .icon {
+      border-radius: 3px;
+      width: 15%;
+      height: 1.5em;
+    }
+    .icon span{
+      padding-left: 0.2em;
+    }
+  }

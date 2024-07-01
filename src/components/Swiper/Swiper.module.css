@@ -1,0 +1,106 @@
+.container {
+    position: relative;
+    width: 100%;
+    top: 2em;
+    margin-left: 1em;
+
+}
+.swiper {
+    padding-bottom: 2em;
+}
+.swiper pagination {
+    top:20%
+}
+.swiper p {
+    display: flex;
+    justify-content: center;
+}
+.swiper span {
+    font-size: small;
+    color: #2AA8FF;
+}
+@media  screen and (max-width:321px) {
+    .container{
+        top: 1em;
+        margin-left: 0.5em;
+    }
+    .swiper p,.swiper span{
+        font-size: x-small;
+    }
+}
+@media screen and (min-width: 322px) and (max-width:376px) {
+    .container{
+        top: 1em;
+        margin-left: 0.5em;
+        width: 97%;
+    }
+    .swiper p,.swiper span{
+        font-size: x-small;
+    }
+  
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .container{
+        top: 1em;
+        margin-left: 0.5em;
+        width: 99%;
+    }
+    .swiper p,.swiper span{
+        font-size: x-small;
+    }
+  
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .container{
+        top: 1em;
+        margin-left: 0.5em;
+        width: 99%;
+    }
+    .swiper p,.swiper span{
+        font-size: x-small;
+    }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .container{
+        top: 1em;
+        margin-left: 0.8em;
+        width: 100%;
+    }
+    .swiper p,.swiper span{
+        font-size: small;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .container{
+        top: 1em;
+        margin-left: 0.8em;
+        width: 97%;
+    }
+    .swiper p,.swiper span{
+        font-size: small;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        top: 2em;
+        margin-left: 0.8em;
+        width: 97%;
+    }
+    .swiper p,.swiper span{
+        font-size: medium;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .App{
+      height: auto;
+      width: 100%;
+    }
+    .container{
+        top: 2em;
+        margin-left: 0.8em;
+        width: 97%;
+    }
+    .swiper p,.swiper span{
+        font-size: medium;
+    }
+  }

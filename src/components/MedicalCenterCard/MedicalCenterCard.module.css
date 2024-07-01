@@ -1,0 +1,434 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.cardWrapper {
+    display: flex;
+    width: 95%;
+    padding-bottom: 0em !important;
+    padding-right: 0em;
+}
+
+.rightPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0em !important;
+    width: 30%;
+    
+}
+.toggleBtn {
+    left: 20em;
+    position: relative;
+    background-color:rgba(0, 165, 0, 1);
+    width:3em;
+    height: 0.3em;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.selectedTimeSlot {
+    cursor: pointer;
+    margin-left: 2em;
+    height: 2.63em;
+    width: 7em;
+    border-radius: 5px;
+    background-color:#2aa8ff;
+    color: white;
+    border: 1px solid #2aa8ff;
+}
+.timeSlot {
+    cursor: pointer;
+    margin-left: 2em;
+    height: 2.63em;
+    width: 7em;
+    border-radius: 5px;
+    color: #2aa8ff;
+    background-color: white;
+    border: 1px solid #2aa8ff;
+}
+.cardContent1{
+    font-size: 75%;
+    color: #02A401;
+}
+.bookBtn {
+    font-size: 70% !important;
+}
+
+@media screen and (max-width: 321px) {
+.card {
+  width: 100%;
+}
+.cardWrapper {
+  padding-top: 1em;
+  padding-left: 0.3em !important;
+}
+.cardContent1 {
+  font-size: xx-small !important;
+}
+.bookBtn {
+  padding: 0.3em !important;
+  font-size: 40% !important;
+  margin-right: 1.5em !important;
+}
+.swiperSlide div{
+  padding: 0em !important;
+}
+.slotDate, .totalSlots {
+  font-size: x-small !important;
+}
+.timePeriod {
+  font-size: xx-small !important;
+}
+.timeSlot {
+  display: flex;
+  align-items: center;
+  width: 2.9em;
+  height: 1.25em;
+  margin-left: 0em;
+}
+.selectedTimeSlot {
+  display: flex;
+  align-items: center;
+  width: 2.9em;
+  height: 1.25em;
+  margin-left: 0em;
+}
+.slot {
+  font-size: 0.44em;
+}
+.toggleBtn{
+  left: 5em;
+}
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 0.3em !important;
+    }
+    .cardContent1 {
+      font-size: x-small !important;
+    }
+    .bookBtn {
+      padding: 0.3em !important;
+      font-size: 50% !important;
+      margin-right: 1.5em;
+    }
+    .swiperSlide div{
+      padding: 0em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: x-small !important;
+    }
+    .timePeriod {
+      font-size: xx-small !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 3.3em;
+      height: 1.5em;
+      margin-left: 0.25em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 3.3em;
+      height: 1.5em;
+      margin-left: 0.25em;
+    }
+    .slot {
+      font-size: 0.5em;
+    }
+    .toggleBtn{
+      left: 5em;
+    }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 0.3em !important;
+    }
+    .cardContent1 {
+      font-size: x-small !important;
+    }
+    .bookBtn {
+      padding: 0.3em !important;
+      font-size: 50% !important;
+      margin-right: 1.5em;
+    }
+    .swiperSlide div{
+      padding: 0.25em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: x-small !important;
+    }
+    .timePeriod {
+      font-size: xx-small !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 4em;
+      height: 1.5em;
+      margin-left: 0.25em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 4em;
+      height: 1.5em;
+      margin-left: 0.25em;
+    }
+    .slot {
+      font-size: 0.7em;
+    }
+    .toggleBtn{
+      left: 6em;
+    }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 0.3em !important;
+    }
+    .cardContent1 {
+      font-size: small !important;
+    }
+    .bookBtn {
+      padding: 0.3em !important;
+      font-size: 55% !important;
+      margin-right: 1em;
+    }
+    .swiperSlide div{
+      padding: 0.25em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: 0.75em !important;
+    }
+    .timePeriod {
+      font-size: small !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 4.5em;
+      height: 1.75em;
+      margin-left: 0.25em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 4.5em;
+      height: 1.75em;
+      margin-left: 0.25em;
+    }
+    .slot {
+      font-size: 0.8em;
+    }
+    .toggleBtn{
+      left: 10em;
+    }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 1em !important;
+    }
+    .cardContent1 {
+      font-size: small !important;
+    }
+    .bookBtn {
+      padding: 0.3em !important;
+      font-size: 59% !important;
+      margin-right: 1em;
+    }
+    .swiperSlide div{
+      padding: 1em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: 0.9em !important;
+    }
+    .timePeriod {
+      font-size: medium !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 5em;
+      height: 2em;
+      margin-left: 1em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 5em;
+      height: 2em;
+      margin-left: 1em;
+    }
+    .slot {
+      font-size: 0.9em;
+    }
+    .toggleBtn{
+      left: 13em;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+   .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 1em !important;
+    }
+    .cardContent1 {
+      font-size: medium !important;
+    }
+    .bookBtn {
+      padding: 0.3em !important;
+      font-size: 65% !important;
+      margin-right: 1em !important;
+    }
+    .swiperSlide div{
+      padding: 1em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: 0.9em !important;
+    }
+    .timePeriod {
+      font-size: medium !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 5em;
+      height: 2em;
+      margin-left: 0.75em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 5em;
+      height: 2em;
+      margin-left: 0.75em;
+    }
+    .slot {
+      font-size: 0.9em;
+    }
+    .toggleBtn{
+      left: 13em;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 1em !important;
+    }
+    .rightPart {
+      width: 45%;
+    }
+    .cardContent1 {
+      font-size: medium !important;
+    }
+    .bookBtn {
+      padding: 0.5em !important;
+      font-size: 76% !important;
+      margin-right: 0.5em;
+    }
+    .swiperSlide div{
+      padding: 1em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: 1em !important;
+    }
+    .timePeriod {
+      font-size: large !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 6.3em;
+      height: 2.5em;
+      margin-left: 0.75em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 6.3em;
+      height: 2.5em;
+      margin-left: 0.75em;
+    }
+    .slot {
+      font-size: 1.2em;
+    }
+    .toggleBtn{
+      left: 18em;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .card {
+      width: 100%;
+    }
+    .cardWrapper {
+      padding-top: 1em;
+      padding-left: 1em;
+    }
+    .rightPart {
+      width: 35%;
+    }
+    .cardContent1 {
+      font-size: large !important;
+    }
+    .bookBtn {
+      padding: 0.5em;
+      font-size: 90% !important;
+      margin-right: 0.5em;
+    }
+    .swiperSlide div{
+      padding: 1em !important;
+    }
+    .slotDate, .totalSlots {
+      font-size: 1.2em !important;
+    }
+    .timePeriod {
+      font-size: x-large !important;
+    }
+    .timeSlot {
+      display: flex;
+      align-items: center;
+      width: 7em;
+      height: 3em;
+      margin-left: 1.5em;
+    }
+    .selectedTimeSlot {
+      display: flex;
+      align-items: center;
+      width: 7em;
+      height: 3em;
+      margin-left: 1.5em;
+    }
+    .slot {
+      font-size: 1.4em;
+    }
+    .toggleBtn{
+      left: 25em;
+    }
+  }

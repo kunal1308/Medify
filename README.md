@@ -1,3 +1,14 @@
+# Medical Center Booking Application
+
+This is a React application for booking appointments at medical centers. Users can search for medical centers, view their details, and book appointments. The application also provides a page to view and manage all booked appointments.
+
+## Features
+
+- **Search and View Medical Centers:** Users can search for medical centers by state and city.
+- **Book Appointments:** Users can select date and time slot to book an appointment at a medical center.
+- **View Bookings:** Users can view their booked appointments.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

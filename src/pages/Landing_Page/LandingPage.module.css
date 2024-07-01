@@ -1,0 +1,1407 @@
+.landingPage {
+    background:linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    height: 100%;
+    width: 100%;
+}
+.mainContainer {
+    display:"flex"
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    width: 80%;
+    margin-top: 2em;
+}
+.skipPara {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 0em;
+}
+.findCenters {
+    margin-top: 3em;
+    background-color: #2AA8FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    width: 9em;
+    height: 2.5em;
+}
+.doctorImg {
+    height: 25em;
+    width: 45%;
+    margin-left: 5em;
+}
+.content {
+    margin-top: 1em;
+}
+.content h1 {
+    margin-top: 0em;
+}
+.searchContainer {
+    padding-top: 2em;
+    width: 82%;
+    height: 65%;
+    margin-right: 8em;
+    position: absolute;
+    top:26em;
+    left:5em;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1 ;
+    box-shadow: 0 0 2px;
+}
+.facilitiesHead{
+    display:flex;
+    justify-content:center;
+    margin-top:4em;
+    font-weight: 600;
+    font-size: 1em;
+}
+.facilities {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facility img {
+    height: 40%;
+}
+.offers {
+    background-color: white;
+    height: 18em;
+    position: relative;
+    top:12em;
+    display:flex;
+    width: 87%;
+    padding-left: 2em;
+}
+.offers img{
+    margin-top: 1em;
+    width: 65%;
+}
+.specialisation {
+    position: relative;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialities {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.speciality {
+    width: 8em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 34px 45px 0px rgba(213,219,228,0.44);
+}
+.speciality img {
+    width: 60%;
+}
+.specialityBtn {
+    color: white;
+    background-color: #2AA8FF;
+    border-radius: 5px;
+    border-color:#2AA8FF;
+    width: 7em;
+    height: 2.5em;
+    margin: 2em;
+}
+.specialistContainer {
+    width:100%;
+    padding-top: 1em;
+    position: relative;
+    top:10em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.specialist {
+    width: 90%;
+}
+.specialist img {
+    width: 90%;
+}
+.caringWrapper {
+    position: relative;
+    top: 16em;
+    display: flex;
+    padding-top: 3em;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+.caringWrapper img {
+    width: 40%;
+    padding:2em;
+}
+.caringContent {
+    padding: 3em;
+    padding-top: 4em;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.caringContentHeading {
+    margin: 0em;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: -1em;
+}
+.caringContent img {
+    width: 4%;
+    padding: 0em;
+    padding-right: 1em;
+}
+.thought{
+    display: flex;
+    align-items: center;
+}
+.news {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    top:17em
+}
+.newsWrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.newsWrapper p{
+    padding: 1em;
+    padding-left: 0em;
+}
+.ourFamily {
+    padding-left: 3em;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    position: relative;
+    top:20em;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding-bottom: 3em;
+}
+.familyContent {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.familyContent h1{
+    margin: 0em;
+}
+.familyCard {
+    width: 50%;
+}
+.familyCard h1{
+    margin: 0em;
+}
+.freqQuestions {
+    position: relative;
+    width: 95%;
+    top:20em
+}
+.footer {
+    position: relative;
+    top: 20em;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+
+@media screen and (max-width: 321px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: 0.75em;
+        margin-bottom: 0em;
+        font-weight: 450;
+    }
+    .findCenters {
+        margin-top: 2em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: x-small;
+        width: 7em;
+        height: 2em;
+    }
+    .connectPara {
+        font-size: x-small;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 10em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+    .content h1 {
+        font-size: large;
+    }
+    .facilitiesHead {
+        margin-top: 2.5em;
+        font-size: small;
+    }
+    .facilities {
+        margin-left: 0.5em;
+        margin-top: 1em;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .facility{
+        width: 20%;
+        height: 3em;
+    }
+    .facility img{
+        height: 45%;
+    }
+    .facility span{
+        font-size: xx-small;
+    }
+    .searchContainer{
+        height: 12em;
+        top: 18em;
+        left: 2em;
+    }
+    .offers{
+        top: 10em;
+        height: 10em;
+        width: 100%;
+        padding-left: 0.75em;
+    }
+    .offers img {
+        width: 70%;
+        margin-top: 4em;
+    }
+    .specialisation h2 {
+        font-size: medium;
+    }
+    .specialities{
+        width: 85%;
+    }
+    .speciality {
+        width: 2em;
+        height: 2em;
+        margin: 0em;
+        margin-bottom: 0.5em;
+    }
+    .speciality span {
+        font-size: x-small;
+        text-align: center;
+    }
+    .specialityBtn {
+        font-size: x-small;
+    }
+    .specialistContainer h2{
+        font-size: medium;
+    }
+    .caringWrapper {
+        top:12em;
+        padding-top: 1em;
+    }
+    .caringWrapper img {
+        width: 50%;
+        height: 12em;
+        padding: 0em;
+    }
+    .caringContent{
+        padding: 1em;
+        padding-right: 0em;
+        width: 40%;
+    }
+    .caringContent p {
+        font-size: xx-small;
+        margin: 0em;
+    }
+    .caringContentHeading {
+        margin-top: 1em;
+        font-size: medium;
+    }
+    .thought img {
+        height: 60%;
+        width: 1em;
+    }
+    .news {
+        top:13em
+    }
+    .news h1 {
+        font-size: medium;
+    }
+    .newsWrapper{
+        width: 90%;
+    }
+    .ourFamily {
+        top:15em;
+        padding-left: 0em;
+    }
+    .familyContent p {
+        font-size: xx-small;
+    }
+    .familyContent h1 {
+        font-size: medium;
+    }
+    .freqQuestions {
+        top:15em
+    }
+    .footer {
+        top: 18em;
+        height: 90vh;
+    }
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: small;
+        margin-bottom: 0em;
+    }
+    .connectPara {
+        font-size: x-small;
+    }
+    .findCenters {
+        margin-top: 0.75em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: x-small;
+        width: 7em;
+        height: 2em;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 10em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+    .content h1 {
+        font-size: large;
+    }
+    .searchContainer{
+        height: 12em;
+        top: 17em;
+        left: 2em;
+        }
+        .facilitiesHead {
+            margin-top: 2.5em;
+            font-size: small;
+        }
+        .facilities {
+            margin-left: 0.5em;
+            margin-top: 1em;
+            width: 95%;
+            flex-wrap: wrap;
+        }
+        .facility{
+            width: 20%;
+            height: 3em;
+        }
+        .facility img{
+            height: 45%;
+        }
+        .facility span{
+            font-size: xx-small;
+        }
+        .offers{
+            top: 10em;
+            height: 10em;
+            padding-left: 0.5em;
+            width: 100%;
+        }
+        .offers img {
+            width: 70%;
+            margin-top: 3em;
+        }
+        .specialisation h2 {
+            font-size: medium;
+        }
+        .specialities{
+            width: 85%;
+        }
+        .speciality {
+            width: 2em;
+            height: 2em;
+            margin: 0em;
+            margin-bottom: 0.5em;
+        }
+        .speciality span {
+            font-size: x-small;
+            text-align: center;
+        }
+        .specialityBtn {
+            font-size: x-small;
+        }
+        .specialistContainer h2{
+            font-size: medium;
+        }
+        .caringWrapper {
+            top:12em;
+            padding-top: 1em;
+        }
+        .caringWrapper img {
+            width: 50%;
+            height: 12em;
+            padding: 0em;
+        }
+        .caringContent{
+            padding: 1em;
+            padding-right: 0em;
+            width: 40%;
+        }
+        .caringContent p {
+            font-size: xx-small;
+            margin: 0em;
+        }
+        .caringContentHeading {
+            margin-top: 1em;
+            font-size: medium;
+        }
+        .thought img {
+            height: 60%;
+            width: 1em;
+        }
+        .news {
+            top:13em
+        }
+        .news h1 {
+            font-size: medium;
+        }
+        .ourFamily {
+            top:15em;
+            padding-left: 0em;
+        }
+        .familyContent p {
+            font-size: xx-small;
+        }
+        .familyContent h1 {
+            font-size: medium;
+        }
+        .freqQuestions {
+            top:15em
+        }
+        .footer {
+            top: 18em;
+            height: 90vh;
+        }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: small;
+        margin-bottom: 0em;
+    }
+    .findCenters {
+        margin-top: 1.5em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: x-small;
+        width: 7em;
+        height: 2.25em;
+    }
+    .connectPara {
+        font-size: x-small;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 10em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+    .content h1 {
+        font-size: large;
+    }
+    .searchContainer{
+        height: 12em;
+        top: 18em;
+        left: 2em;
+    }
+        .facilitiesHead {
+            margin-top: 2.5em;
+            font-size: small;
+        }
+        .facilities {
+            margin-left: 0.5em;
+            margin-top: 1em;
+            width: 95%;
+            flex-wrap: wrap;
+        }
+        .facility{
+            width: 20%;
+            height: 3em;
+        }
+        .facility img{
+            height: 50%;
+        }
+        .facility span{
+            font-size: x-small;
+        }
+        .offers{
+            top: 10em;
+            height: 10em;
+        }
+        .offers img {
+            width: 70%;
+            margin-top: 3em;
+        }
+        .specialisation h2 {
+            font-size: medium;
+        }
+        .specialities{
+            width: 75%;
+        }
+        .speciality {
+            width: 2.25em;
+            height: 2em;
+            margin: 0em;
+            margin-bottom: 0.5em;
+        }
+        .speciality span {
+            font-size: x-small;
+            text-align: center;
+        }
+        .specialityBtn {
+            font-size: x-small;
+        }
+        .specialistContainer h2{
+            font-size: medium;
+        }
+        .caringWrapper {
+            top:12em;
+            padding-top: 1em;
+        }
+        .caringWrapper img {
+            width: 50%;
+            height: 12em;
+            padding: 0em;
+        }
+        .caringContent{
+            padding: 1em;
+            padding-right: 0em;
+            width: 40%;
+        }
+        .caringContent p {
+            font-size: xx-small;
+            margin: 0em;
+        }
+        .caringContentHeading {
+            margin-top: 0.5em;
+            font-size: medium;
+        }
+        .thought img {
+            height: 60%;
+            width: 1em;
+        }
+        .news {
+            top:13em
+        }
+        .news h1 {
+            font-size: medium;
+        }
+        .ourFamily {
+            top:15em;
+            padding-left: 0em;
+        }
+        .familyContent p {
+            font-size: xx-small;
+        }
+        .familyContent h1 {
+            font-size: medium;
+        }
+        .freqQuestions {
+            top:15em
+        }
+        .footer {
+            top: 18em;
+            height: 80vh;
+        }
+  }
+  
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: small;
+        margin-bottom: 0em;
+    }
+    .findCenters {
+        margin-top: 1.5em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: x-small;
+        width: 7em;
+        height: 2.25em;
+    }
+    .connectPara {
+        font-size: x-small;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 10em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+    .content h1 {
+        font-size: large;
+    }
+    .searchContainer{
+        height: 12em;
+        top: 18em;
+        left: 2em;
+    }
+        .facilitiesHead {
+            margin-top: 2.5em;
+            font-size: small;
+        }
+        .facilities {
+            margin-left: 0.5em;
+            margin-top: 1em;
+            width: 95%;
+            flex-wrap: wrap;
+        }
+        .facility{
+            width: 20%;
+            height: 3em;
+        }
+        .facility img{
+            height: 55%;
+        }
+        .facility span{
+            font-size: small;
+        }
+        .offers{
+            top: 10em;
+            height: 11em;
+            padding-left: 0em;
+            width: 100%;
+        }
+        .offers img {
+            width: 70%;
+            margin-top: 3em;
+        }
+        .specialisation h2 {
+            font-size: medium;
+        }
+        .specialities{
+            width: 70%;
+        }
+        .speciality {
+            width: 3em;
+            height: 2.5em;
+            margin: 0em;
+            margin-bottom: 0.75em;
+            margin-right: 0.75em;
+        }
+        .speciality span {
+            font-size: x-small;
+            text-align: center;
+        }
+        .specialityBtn {
+            font-size: x-small;
+        }
+        .specialistContainer h2{
+            font-size: medium;
+        }
+        .caringWrapper {
+            top:12em;
+            padding-top: 1em;
+        }
+        .caringWrapper img {
+            width: 50%;
+            height: 13em;
+            padding: 0em;
+            margin-left: 0.5em;
+        }
+        .caringContent{
+            padding: 1em;
+            padding-right: 0em;
+            width: 40%;
+        }
+        .caringContent p {
+            font-size: xx-small;
+            margin: 0em;
+        }
+        .caringContentHeading {
+            margin-top: 0.5em;
+            font-size: medium;
+        }
+        .thought img {
+            height: 65%;
+            width: 1em;
+        }
+        .news {
+            top:13em
+        }
+        .news h1 {
+            font-size: medium;
+        }
+        .ourFamily {
+            top:15em;
+            padding-left: 0em;
+        }
+        .familyContent p {
+            font-size: small;
+        }
+        .familyContent h1 {
+            font-size: large;
+        }
+        .freqQuestions {
+            top:15em
+        }
+        .footer {
+            top: 18em;
+            height: 80vh;
+        }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: medium;
+        margin-bottom: 0em;
+    }
+    
+    .findCenters {
+        margin-top: 1.5em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: x-small;
+        width: 7em;
+        height: 2.25em;
+    }
+    .connectPara {
+        font-size: small;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 14em;
+        width: 40%;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+    .content h1 {
+        font-size: x-large;
+    }
+    .searchContainer{
+        height: 13em;
+        top: 20.5em;
+        left: 2em;
+    }
+        .facilitiesHead {
+            margin-top: 2.5em;
+            font-size: small;
+        }
+        .facilities {
+            margin-left: 0.5em;
+            margin-top: 1em;
+            width: 95%;
+            flex-wrap: wrap;
+        }
+        .facility{
+            width: 20%;
+            height: 3em;
+        }
+        .facility img{
+            height: 55%;
+        }
+        .facility span{
+            font-size: small;
+        }
+        .offers{
+            top: 8em;
+            height: 13em;
+            padding-left: 0em;
+            width: 100%;
+        }
+        .offers img {
+            width: 70%;
+            margin-top: 3em;
+        }
+        .specialisation h2 {
+            font-size: medium;
+        }
+        .specialities{
+            width: 70%;
+        }
+        .speciality {
+            padding: 1.5em;
+            width: 3.5em;
+            height: 3em;
+            margin: 0em;
+            margin-bottom: 1em;
+            margin-right: 1em;
+        }
+        .speciality span {
+            font-size: small;
+            text-align: center;
+        }
+        .specialityBtn {
+            font-size: small;
+        }
+        .specialistContainer h2{
+            font-size: medium;
+        }
+        .caringWrapper {
+            top:12em;
+            padding-top: 1em;
+        }
+        .caringWrapper img {
+            width: 50%;
+            height: 18em;
+            padding: 0em;
+            margin-left: 1em;
+        }
+        .caringContent{
+            padding: 1em;
+            padding-right: 0em;
+            width: 40%;
+        }
+        .caringContent p {
+            font-size: small;
+            margin: 0em;
+        }
+        .caringContentHeading {
+            margin-top: 0.5em;
+            font-size: large;
+        }
+        .thought img {
+            height: 65%;
+            width: 1em;
+        }
+        .news {
+            top:14em
+        }
+        .news h1 {
+            font-size: large;
+        }
+        .ourFamily {
+            top:15em;
+            padding-left: 0em;
+        }
+        .familyContent p {
+            font-size: medium;
+        }
+        .familyContent h1 {
+            font-size: x-large;
+        }
+        .freqQuestions {
+            top:15em
+        }
+        .footer {
+            top: 18em;
+            height: 80vh;
+        }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: medium;
+        margin-bottom: 0em;
+        margin-left: 1.5em;
+    }
+    .findCenters {
+        margin-top: 0.75em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: small;
+        width: 8em;
+        height: 2.25em;
+        margin-left: 2em;
+    }
+    .connectPara {
+        font-size: small;
+        margin-left: 2em;
+    }
+    .content {
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 14em;
+        width: 40%;
+        margin-left: 0em;
+        margin-right: 2em;
+    }
+    .content h1 {
+        font-size: x-large;
+        margin-left: 1em;
+    }
+    .searchContainer{
+        height: 20em;
+        top: 21em;
+        left: 3.5em;
+    }
+    .facilitiesHead {
+        margin-top: 2.5em;
+        font-size: medium;
+    }
+    .facilities {
+        margin-left: 0.5em;
+        margin-top: 1.5em;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .facility{
+        width: 20%;
+        height: 4em;
+    }
+    .facility img{
+        height: 60%;
+    }
+    .facility span{
+        font-size: large;
+    }
+    .offers{
+        top: 17em;
+        height: 21em;
+        padding-left: 1em;
+        width: 100%;
+    }
+    .offers img {
+        width: 70%;
+        margin-top: 4em;
+    }
+    .specialisation h2 {
+        font-size: large;
+    }
+    .specialities{
+        width: 70%;
+    }
+    .speciality {
+        padding: 1.5em;
+        width: 3.5em;
+        height: 3em;
+        margin: 0em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+    .speciality span {
+        font-size: smaller;
+        text-align: center;
+    }
+    .specialityBtn {
+        font-size: smaller;
+    }
+    .specialistContainer h2{
+        font-size: large;
+    }
+    .caringWrapper {
+        top:12em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .caringWrapper img {
+        width: 50%;
+        height: 20em;
+        padding: 0em;
+        margin-left: 1em;
+    }
+    .caringContent{
+        padding: 1em;
+        padding-right: 0em;
+        width: 40%;
+    }
+    .caringContent p {
+        font-size: medium;
+        margin: 0em;
+        margin-top: 0.75em;
+    }
+    .caringContentHeading {
+        margin-top: 1em;
+        font-size: x-large;
+    }
+    .thought img {
+        height: 65%;
+        width: 1em;
+        margin-top: 0.75em;
+    }
+    .news {
+        top:15em
+    }
+    .news h1 {
+        font-size: large;
+    }
+    .ourFamily {
+        top:15em;
+        padding-left: 0em;
+    }
+    .familyContent p {
+        font-size: medium;
+    }
+    .familyContent h1 {
+        font-size: x-large;
+    }
+    .freqQuestions {
+        top:16em
+    }
+    .footer {
+        top: 19em;
+        height: 70vh;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: 1.3em;
+        margin-bottom: 0em;
+    }
+    .findCenters {
+        margin-top: 3em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: medium;
+        width: 9em;
+        height: 2.25em;
+        margin-left: 0.5em;
+    }
+    .connectPara {
+        font-size: medium;
+    }
+    .content {
+        margin-left: 4em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 20em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 3em;
+    }
+    .content h1 {
+        font-size: xx-large;
+    }
+    .searchContainer{
+        height: 20em;
+        top: 26em;
+        left: 4.5em;
+    }
+    .facilitiesHead {
+        margin-top: 3em;
+        font-size: large;
+    }
+    .facilities {
+        margin-left: 0.5em;
+        margin-top: 1.5em;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .facility{
+        width: 20%;
+        height: 5em;
+    }
+    .facility img{
+        height: 65%;
+    }
+    .facility span{
+        font-size: large;
+    }
+    .offers{
+        top: 16em;
+        height: 24em;
+        padding-left: 0em;
+        width: 100%;
+    }
+    .offers img {
+        width: 70%;
+        margin-top: 4em;
+        padding-left: 3em;
+    }
+    .specialisation h2 {
+        font-size: x-large;
+    }
+    .specialities{
+        width: 70%;
+    }
+    .speciality {
+        padding: 2em;
+        width: 5em;
+        height: 4em;
+        margin: 0em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+    .speciality span {
+        font-size: medium;
+        text-align: center;
+    }
+    .specialityBtn {
+        font-size: medium;
+    }
+    .specialistContainer h2{
+        font-size: x-large;
+    }
+    .caringWrapper {
+        top:12em;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    .caringWrapper img {
+        width: 40%;
+        height: 24em;
+        padding: 0em;
+        margin-left: 3em;
+    }
+    .caringContent{
+        padding: 1em;
+        padding-right: 0em;
+        width: 40%;
+        padding-left: 3em;
+    }
+    .caringContent p {
+        font-size: large;
+        margin: 0em;
+        margin-top: 0.75em;
+    }
+    .caringContentHeading {
+        margin-top: 1em;
+        font-size: xx-large;
+    }
+    .thought img {
+        height: 75%;
+        width: 1.5em;
+        margin-top: 0.9em;
+    }
+    .news {
+        top:15em
+    }
+    .news h1 {
+        font-size: x-large;
+    }
+    .ourFamily {
+        padding-top: 1em;
+        top:17em;
+        padding-left: 3em;
+    }
+    .familyContent p {
+        font-size: large;
+    }
+    .familyContent h1 {
+        font-size: xx-large;
+    }
+    .freqQuestions {
+        top:18em
+    }
+    .footer {
+        top: 21em;
+        height: 40vh;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .container{
+        width: 100%;
+        margin-left: 0em;
+    }
+    .skipPara {
+        font-size: x-large;
+        margin-bottom: 0em;
+    }
+    .connectPara {
+        font-size: 1em;
+    }
+    .findCenters {
+        margin-top: 7em;
+        background-color: #2AA8FF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: medium;
+        width: 9em;
+        height: 2.25em;
+        margin-left: 0.5em;
+    }
+    .content {
+        margin-left: -4em;
+        margin-right: 1em;
+    }
+    .doctorImg {
+        height: 25em;
+        width: 35%;
+        margin-left: 0em;
+        margin-right: 3em;
+    }
+    .content h1 {
+        font-size: xx-large;
+    }
+    .searchContainer{
+        height: 20em;
+        top: 32em;
+        left: 4.5em;
+    }
+    .facilitiesHead {
+        margin-top: 3em;
+        font-size: x-large;
+    }
+    .facilities {
+        margin-left: 0.5em;
+        margin-top: 1.5em;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .facility{
+        width: 20%;
+        height: 5em;
+    }
+    .facility img{
+        height: 70%;
+    }
+    .facility span{
+        font-size: x-large;
+    }
+    .offers{
+        top: 16em;
+        height: 27em;
+        padding-left: 0em;
+        width: 100%;
+    }
+    .offers img {
+        width: 70%;
+        margin-top: 5em;
+        padding-left: 3em;
+    }
+    .specialisation h2 {
+        font-size: x-large;
+    }
+    .specialities{
+        width: 70%;
+    }
+    .speciality {
+        padding: 2.5em;
+        width: 7em;
+        height: 5em;
+        margin: 0em;
+        margin-bottom: 1.5em;
+        margin-right: 1.5em;
+    }
+    .speciality span {
+        font-size: large;
+        text-align: center;
+    }
+    .specialityBtn {
+        font-size: large;
+    }
+    .specialistContainer h2{
+        font-size: xx-large;
+    }
+    .caringWrapper {
+        top:12em;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    .caringWrapper img {
+        width: 40%;
+        height: 27em;
+        padding: 0em;
+        margin-left: 3em;
+    }
+    .caringContent{
+        padding: 1em;
+        padding-right: 0em;
+        width: 40%;
+        padding-left: 3em;
+    }
+    .caringContent p {
+        font-size: large;
+        margin: 0em;
+        margin-top: 0.75em;
+    }
+    .caringContentHeading {
+        margin-top: 1em;
+        font-size: xx-large;
+    }
+    .thought img {
+        height: 75%;
+        width: 1.5em;
+        margin-top: 0.9em;
+    }
+    .news {
+        top:15em
+    }
+    .news h1 {
+        font-size: xx-large;
+    }
+    .ourFamily {
+        padding-top: 2em;
+        top:18em;
+        padding-left: 3.5em;
+    }
+    .familyContent p {
+        font-size: large;
+    }
+    .familyContent h1 {
+        font-size: xx-large;
+    }
+    .freqQuestions {
+        top:20em
+    }
+    .footer {
+        top: 23em;
+        height: 30vh;
+    }
+  }
+  

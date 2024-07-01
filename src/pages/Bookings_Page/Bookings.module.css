@@ -1,0 +1,659 @@
+.wrapper {
+    position: relative;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+
+}
+.navbarBottom {
+    background-color: #2AA8FF;
+    width: 100%;
+    height: 4em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1em;
+}
+.navbarBottom h2 {
+    color: white;
+    margin-left: 4.5em;
+    padding-top: 0.8em;
+}
+.searchbar {
+    width: 50%;
+    height: 2em;
+    padding: 1em;
+    position: absolute;
+    top: 6.5em;
+    right: 5.5em;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+}
+.searchbar input {
+    width:75%;
+    height: 2.75em;
+    background: rgba(250, 251, 254, 1);
+    border:1px solid rgba(240, 240, 240, 1);
+    font-size: 0.7em;
+    border-radius: 5px;
+}
+.searchbar input::after {
+    border-style: none;
+}
+.searchbar button {
+    width: 20%;
+    height: 2.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2AA8FF;
+    border: none;
+    color: white;
+    margin-left: 1.5em;
+}
+.footer {
+    position: relative;
+    top: 2em;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+.container {
+    display: flex;
+}
+.bookingsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    top:3em;
+    width: 70%;
+    left: 5em;
+}
+.cardWrapper {
+    border-radius: 10px;
+    padding: 1em;
+    height: 11.7em;
+    background-color: white;
+    display: flex;
+    margin-top: 2em;
+}
+.leftPart {
+    width: 65%;
+}
+.leftPart .HospitalCard {
+    width: 100%;
+}
+.rightPart {
+    width: 35%;
+    margin-top: 1em;
+    /* display: flex; */
+}
+.bookingTime {
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 3px;
+    font-size: small;
+    border: 1px solid rgba(42, 167, 255, 1);
+    color: rgba(42, 167, 255, 1);
+    margin-right: 0.5em;
+}
+.bookingDate {
+    text-align: center;
+    padding: 0.5em;
+    font-size: small;
+    border-radius: 3px;
+    color:rgba(0, 113, 0, 1);
+    border: 1px solid rgba(0, 165, 0, 1)
+}
+.freeAppointment {
+    width: 30%;
+    top:5em;
+    position: relative;
+    left: 7em;
+}
+.freeAppointment img {
+    width: 82%;
+}
+.container {
+    width: 100%;
+}
+
+@media screen and (max-width: 321px) {
+    .navbarBottom {
+        height: 2em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.2em;
+    }
+.navbarBottom h2 {
+    font-size: small;
+    padding-top: 0.5em;
+    margin-left: 1.5em;
+}
+  .bookingsContainer {
+    left: 1em;
+    top: 1em;
+    width: 60%;
+  }
+  .freeAppointment {
+    width: 30%;
+    left: 1.5em;
+    top: 3em;
+ }
+ .freeAppointment img {
+   width: 100%;
+ }
+  .cardWrapper {
+    padding: 0em;
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    width: 100%;
+  }
+  .leftPart {
+    width: 70%;
+  }
+  .rightPart {
+    flex-wrap: wrap;
+    width: 30%;
+    margin-right: 0.5em;
+  }
+  .bookingDate {
+    font-size: 0.2em;
+    padding: 0.3em;
+  }
+  .bookingTime {
+    padding: 0.3em;
+    font-size: 0.2em;
+    margin-right: 0em;
+  }
+ .searchbar {
+    width: 50%;
+    height: 1.5em;
+    top: 4em;
+    left: 7.5em;
+    padding: 0.5em;
+ }
+ .searchbar input {
+    font-size: 0.5em;
+    width: 60%;
+ }
+ .searchbar button {
+    font-size: xx-small;
+    width: 30%;
+ }
+ .cardWrapper {
+    width: 100%;
+ }
+
+  }
+  @media screen and (min-width: 322px) and (max-width:376px) {
+    .navbarBottom {
+        height: 2em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.3em;
+    }
+    .navbarBottom h2 {
+        font-size: medium;
+        padding-top: 0.5em;
+        margin-left: 1em;
+    }
+      .bookingsContainer {
+        left: 1em;
+        top: 1em;
+        width: 60%;
+      }
+      .cardWrapper {
+        padding: 0em;
+        padding-top: 0.5em;
+        padding-left: 0.2em;
+        width: 100%;
+      }
+      .leftPart {
+        width: 70%;
+      }
+      .rightPart {
+        flex-wrap: wrap;
+        width: 30%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        font-size: 0.2em;
+        padding: 0.3em;
+      }
+      .bookingTime {
+        padding: 0.3em;
+        font-size: 0.2em;
+        margin-right: 0em;
+      }
+     .freeAppointment {
+        top: 3em;
+        left: 1.5em !important;
+     }
+     .freeAppointment img {
+        width: 100% ;
+     }
+     .searchbar {
+        width: 50%;
+        height: 1.5em;
+        top: 4.5em;
+        left: 9.5em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.5em;
+        width: 60%;
+     }
+     .searchbar button {
+        font-size: xx-small;
+        width: 30%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+  }
+  @media screen and (min-width:376px) and (max-width:426px) {
+    .navbarBottom {
+        height: 2em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.3em;
+    }
+    .navbarBottom h2 {
+        font-size: medium;
+        padding-top: 0.5em;
+        margin-left: 1em;
+    }
+      .bookingsContainer {
+        left: 1em;
+        top: 1em;
+        width: 55%;
+      }
+      .cardWrapper {
+        padding: 0em;
+        padding-top: 0.5em;
+        padding-left: 0.2em;
+        width: 100%;
+      }
+      .leftPart {
+        width: 80%;
+      }
+      .rightPart {
+        flex-wrap: wrap;
+        width: 20%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        font-size: 0.4em;
+        padding: 0.3em;
+      }
+      .bookingTime {
+        padding: 0.3em;
+        font-size: 0.4em;
+        margin-right: 0em;
+      }
+     .freeAppointment {
+        top: 3em;
+        left: 1.5em !important;
+     }
+     .freeAppointment img {
+        width: 120% ;
+     }
+     .searchbar {
+        width: 55%;
+        height: 1.5em;
+        top: 5em;
+        left: 9em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.6em;
+        width: 60%;
+     }
+     .searchbar button {
+        font-size: x-small;
+        width: 30%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+  }
+  @media screen and (min-width:427px) and (max-width: 575px) {
+    .navbarBottom {
+        height: 3em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.3em;
+    }
+    .navbarBottom h2 {
+        font-size: large;
+        padding-top: 0.5em;
+        margin-left: 1em;
+    }
+      .bookingsContainer {
+        left: 1em;
+        top: 1em;
+        width: 55%;
+      }
+      .cardWrapper {
+        padding: 0em;
+        padding-top: 0.5em;
+        padding-left: 0.2em;
+        width: 100%;
+      }
+      .leftPart {
+        width: 80%;
+      }
+      .rightPart {
+        flex-wrap: wrap;
+        width: 20%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        font-size: 0.6em;
+        padding: 0.3em;
+      }
+      .bookingTime {
+        padding: 0.3em;
+        font-size: 0.6em;
+        margin-right: 0em;
+      }
+     .freeAppointment {
+        top: 3em;
+        left: 1.5em !important;
+     }
+     .freeAppointment img {
+        width: 130% ;
+     }
+     .searchbar {
+        width: 55%;
+        height: 1.5em;
+        top: 6.5em;
+        left: 11em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.7em;
+        width: 70%;
+     }
+     .searchbar button {
+        font-size: small;
+        width: 25%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+  }
+  @media screen and (min-width: 575px) and (max-width: 766px) {
+    .navbarBottom {
+        height: 3em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.3em;
+    }
+    .navbarBottom h2 {
+        font-size: x-large;
+        padding-top: 0.5em;
+        margin-left: 1.25em;
+    }
+      .bookingsContainer {
+        left: 1em;
+        top: 1em;
+        width: 55%;
+      }
+      .cardWrapper {
+        padding: 0em;
+        padding-top: 0.5em;
+        padding-left: 0.2em;
+        width: 100%;
+      }
+      .leftPart {
+        width: 80%;
+      }
+      .rightPart {
+        flex-wrap: wrap;
+        width: 20%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        font-size: 0.7em;
+        padding: 0.3em;
+      }
+      .bookingTime {
+        padding: 0.3em;
+        font-size: 0.7em;
+        margin-right: 0em;
+      }
+     .freeAppointment {
+        top: 3em;
+        left: 2.5em !important;
+     }
+     .freeAppointment img {
+        width: 120% ;
+     }
+     .searchbar {
+        width: 55%;
+        height: 2.5em;
+        top: 6em;
+        left: 15em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.75em;
+        width: 70%;
+     }
+     .searchbar button {
+        font-size: small;
+        width: 25%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+  }
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    .navbarBottom {
+        height: 3.5em;
+        margin-top: 0em;
+    }
+    .navbar div {
+        padding-top: 0.3em;
+    }
+    .navbarBottom h2 {
+        font-size: x-large;
+        padding-top: 0.5em;
+        margin-left: 1.25em;
+    }
+      .bookingsContainer {
+        left: 1em;
+        top: 1em;
+        width: 60%;
+      }
+      .cardWrapper {
+        padding: 1em;
+        padding-top: 0.5em;
+        padding-left: 0.5em;
+        padding-right: 0em;
+        width: 100%;
+        height: 100%;
+      }
+      .leftPart {
+        width: 80%;
+      }
+      .rightPart {
+        flex-wrap: wrap;
+        width: 18%;
+        margin-right: 1em;
+      }
+      .bookingDate {
+        font-size: 0.7em;
+        padding: 0.3em;
+      }
+      .bookingTime {
+        padding: 0.3em;
+        font-size: 0.7em;
+        margin-right: 0em;
+      }
+     .freeAppointment {
+        top: 3em;
+        left: 2.5em !important;
+     }
+     .freeAppointment img {
+        width: 110% ;
+     }
+     .searchbar {
+        width: 55%;
+        height: 3em;
+        top: 6em;
+        left: 16em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.9em;
+        width: 70%;
+     }
+     .searchbar button {
+        font-size: medium;
+        width: 25%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbarBottom h2 {
+        font-size: x-large;
+        padding-top: 0.5em;
+        margin-left: 1.25em;
+    }
+      .bookingsContainer {
+        left: 2.5em;
+        top: 2em;
+        width: 55%;
+      }
+      .cardWrapper {
+        padding: 1em;
+       padding-right: 0em;
+        width: 100%;
+        height: 100%;
+      }
+      .leftPart {
+        width: 75%;
+      }
+      .rightPart {
+        display: flex;
+        width: 35%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        height: 1.75em;
+        width: 45%;
+        font-size: 0.9em;
+        padding: 0.2em;
+      }
+      .bookingTime {
+        height: 1.75em;
+        width: 40%;
+        padding: 0.2em;
+        font-size: 0.9em;
+        margin-right: 0.5em;
+      }
+     .freeAppointment {
+        top: 4em;
+        left: 4.5em !important;
+     }
+     .freeAppointment img {
+        width: 100% ;
+     }
+     .searchbar {
+        width: 50%;
+        height: 2.5em;
+        top: 7em;
+        left: 24em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 0.9em;
+        width: 70%;
+     }
+     .searchbar button {
+        font-size: medium;
+        width: 25%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+     .footer {
+        top: 14em;
+     }
+  }
+  @media screen and (min-width: 1200px) {
+    .navbarBottom h2 {
+        font-size: xx-large;
+        padding-top: 0.25em;
+        margin-left: 1.75em;
+    }
+      .bookingsContainer {
+        left: 4.5em;
+        top: 4em;
+        width: 55%;
+      }
+      .cardWrapper {
+        padding: 1em;
+       padding-right: 0em;
+        width: 100%;
+        height: 100%;
+      }
+      .leftPart {
+        width: 75%;
+      }
+      .rightPart {
+        display: flex;
+        width: 35%;
+        margin-right: 0.5em;
+      }
+      .bookingDate {
+        height: 1.75em;
+        width: 45%;
+        font-size: 1.1em;
+        padding: 0.2em;
+      }
+      .bookingTime {
+        height: 1.75em;
+        width: 40%;
+        padding: 0.2em;
+        font-size: 1.1em;
+        margin-right: 0.5em;
+      }
+     .freeAppointment {
+        top: 5.75em;
+        left: 8.5em !important;
+     }
+     .freeAppointment img {
+        width: 110%;
+        height: 17em;
+     }
+     .searchbar {
+        width: 50%;
+        height: 3.5em;
+        top: 7em;
+        left: 33em;
+        padding: 0.5em;
+     }
+     .searchbar input {
+        font-size: 1.1em;
+        width: 75%;
+     }
+     .searchbar button {
+        font-size: large;
+        width: 20%;
+     }
+     .cardWrapper {
+        width: 100%;
+     }
+     .footer {
+        top: 14em;
+     }
+  }
