@@ -1249,7 +1249,7 @@
     }
     .footer {
         top: 21em;
-        height: 40vh;
+        height: 100vh;
     }
   }
   @media screen and (min-width: 1200px) {
@@ -1401,7 +1401,7 @@
     }
     .footer {
         top: 23em;
-        height: 30vh;
+        height: 100vh;
     }
   }
   
