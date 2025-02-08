@@ -1,4 +1,5 @@
 # Medical Center Booking Application
+Demo Link - https://medify-ashen.vercel.app/
 
 This is a React application for booking appointments at medical centers. Users can search for medical centers, view their details, and book appointments. The application also provides a page to view and manage all booked appointments.
 
